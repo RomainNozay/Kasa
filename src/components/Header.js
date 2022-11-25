@@ -1,15 +1,17 @@
-import React from 'react';
+import React from "react";
+import logoHeader from "../asset/img/Logo.png";
+import { NavLink } from "react-router-dom";
 
-const Header = () => {
-    const JSX = (
-        <div className='header-container'>
-            <h1>Je suis le header</h1>
-            <p>1 REM = 10 pixel</p>
-            <i className="fa-solid fa-magnifying-glass"></i>
-        </div>
+function Header() {
+    return(
+        <header>
+            <img src={logoHeader} alt="Logo"/>
+            <nav>
+                <NavLink to="/accueil" className="lien-site lien-menu">Accueil</NavLink>
+                <NavLink to="/a-propos" className="lien-site lien-menu">À propos</NavLink>
+            </nav>
+        </header>
     );
-
-    return JSX;
-};
+}
 
 export default Header;
