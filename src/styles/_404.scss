@@ -1,22 +1,27 @@
 .page-404 {
-    text-align: center
+    text-align: center;
   }
   
   .titre-404 {
     color: #ff6060;
-    font-size: 150px;
+    font-size: 208px;
     margin: auto;
+    line-height: 411px;
+    
   }
   
   .description-404 {
     color: #ff6060;
     display: block;
-    font-size: 20px;
+    font-size: 36px;
+
   }
   
   .lien-site.lien-404 {
     display: block;
     margin-top: 150px;
+    font-size: 18px;
+    text-decoration-line: underline ;
   }
   
   @media screen and (max-width: 1490px) {

@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from '../components/Header';
 
 const Accueil = () => {
     return (
+        <>
         <div>
-            <Header />
+            <h1>Bonjour</h1>
         </div>
+        </>
     );
 };
 
