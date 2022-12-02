@@ -15,7 +15,19 @@
     object-fit: cover;
     width: 100%;
   }
-  
+
+  .banner-img-mobile {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    visibility: hidden;
+    bottom: 227px;
+  }
+
   .banner-sombre {
     background-color: #000000;
     border-radius: 25px;
@@ -36,10 +48,12 @@
     transform: translate(-50%, -50%);
   }
   
-  @media screen and (max-width: 768px) {
-    .banner-img{
-      background-image: url(../asset/img/Apropos_mobile.png);
+  @media screen and (max-width: 425px) {
+    .banner-img {
       visibility: hidden;
+    }
+    .banner-img-mobile {
+      visibility: visible;
     }
     
   }
