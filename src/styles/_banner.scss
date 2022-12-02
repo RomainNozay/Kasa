@@ -3,6 +3,8 @@
     height: 225px;
     margin-bottom: 35px;
     position: relative;
+    width: 90%;
+    max-width: 2000px;
   }
   .banner-img {
     position: relative;
@@ -34,10 +36,10 @@
     transform: translate(-50%, -50%);
   }
   
-  @media screen and (max-width: 1490px) {
-    .banner-txt {
-      font-size: 20px;
-      left: 15px;
-      transform: translateY(-50%);
+  @media screen and (max-width: 768px) {
+    .banner-img{
+      background-image: url(../asset/img/Apropos_mobile.png);
+      visibility: hidden;
     }
+    
   }
