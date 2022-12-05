@@ -47,13 +47,33 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  .banniere-txt {
+    color: #ffffff;
+    font-size: 48px;
+    position: relative;
+    bottom: 375px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .banniere-txt{
+      font-size: 30px;
+      justify-content: flex-start;
+      margin-left: 10%;
+      margin-right: 25%;
+    }
+  }
   @media screen and (max-width: 425px) {
     .banner-img {
       visibility: hidden;
     }
     .banner-img-mobile {
       visibility: visible;
+    }
+    .banniere-txt{
+      bottom: 380px;
+      font-size: 26px;
     }
     
   }
