@@ -6,12 +6,17 @@ import Sticker from '../components/Sticker';
 const Accueil = () => {
     return (
         <>
-        <div className='Accueil'>
-            <Banner image={banner} imageMobile={bannerMobile} titre="Chez vous, partout et ailleurs"/>
-        </div>
-        <div className='background'>
-        <Sticker />
-        </div>
+            <div className='Accueil'>
+                <Banner image={banner} imageMobile={bannerMobile} titre="Chez vous, partout et ailleurs" />
+                <div className='background'>
+                    <Sticker />
+                    <Sticker />
+                    <Sticker />
+                    <Sticker />
+                    <Sticker />
+                    <Sticker />
+                </div>
+            </div>
         </>
     );
 };

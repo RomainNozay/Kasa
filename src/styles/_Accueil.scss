@@ -6,6 +6,12 @@
 }
 .background{
     width: 90%;
-    background-color: grey;
+    background-color: #F7F7F7;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    border-radius: 25px;
 }

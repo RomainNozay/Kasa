@@ -1,6 +1,16 @@
 .sticker{
-    height: 100px;
-    width: 100px;
-    background-color: pink;
+    height: 450px;
+    width: 450px;
+    background:#ff6060;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.sticker_background{
+    background: linear-gradient(white, black);
+    height: 450px;
+    width: 450px;
+    opacity: 30%;
+    position: relative;
     border-radius: 10px;
 }
