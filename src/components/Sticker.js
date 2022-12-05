@@ -1,16 +1,12 @@
 import React from "react"
 
-function Sticker({image_chambre, chambre_titre}) {
+function Sticker({id, image, title}) {
     return(
-        <>
-        <div className="stickers">
-            <div className="sticker">
-            <div className="sticker_background"></div>
-            <image className="image_chambre" src={image_chambre} alt="photo de la chambre d'hôte" />
-            <div className="chambre_text">{chambre_titre}</div>
-            </div>
+        <div className="sticker" id={id}>
+            <img className="sticker_image" src={image} alt="Tuile"/>
+            {/* <div className="sticker_black"></div> */}
+            <span className="sticker_text">{title}</span>
         </div>
-        </>
     );
 }
 
