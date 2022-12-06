@@ -16,9 +16,9 @@ function Collapse({title, description}) {
     console.log(setOpen)
     return(
         <div className="collapse" id={`collapse`}>
-            <div className="header-collapse">
-                <div className="title-collapse">{title}</div>
-                <span className={`arrow-collapse ${open}`} onClick={() => setOpen(!open)}>
+            <div className="header_collapse">
+                <div className="title_collapse">{title}</div>
+                <span className={`arrow_collapse ${open}`} onClick={() => setOpen(!open)}>
                     <img src={Arrow} alt="Ouvrir cette liste"/>
                 </span>
             </div>

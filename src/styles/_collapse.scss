@@ -4,8 +4,8 @@
     text-align: left;
     width: 80%;
   }
-  
-  .header-collapse {
+
+  .header_collapse {
     align-items: center;
     background-color: #ff6060;
     border-radius: 5px;
@@ -15,7 +15,7 @@
     width: 100%;
   }
   
-  .title-collapse {
+  .title_collapse {
     font-size: 24px;
     color: #ffffff;
     height: 50px;
@@ -23,22 +23,22 @@
     margin: 5px 10px;
   }
   
-  .arrow-collapse {
+  .arrow_collapse {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
     width: 100%;
   }
-  .arrow-collapse:hover {
+  .arrow_collapse:hover {
       cursor: pointer;
   }
   
-  .arrow-collapse.true {
+  .arrow_collapse.true {
     justify-content: start;
     transform: rotate(-180deg);
   }
   
-  .description-collapse {
+  .description_collapse {
     font-size: 24px;
     background-color: #f6f6f6;
     border-bottom-left-radius: 5px;

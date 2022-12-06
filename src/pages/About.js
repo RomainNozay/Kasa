@@ -4,11 +4,11 @@ import banniereAPropos from "../asset/img/Bannière_Apropos.png";
 import banniereMobile from "../asset/img/Apropos_mobile.png";
 import Collapse from "../components/Collapse";
 
-function APropos() {
+function About() {
     return(
-        <div className="APropos">
-            <Banner image={banniereAPropos} imageMobile={banniereMobile}/>
-            <div className="All_collapse">
+        <div className="a_ropos">
+            <Banner picture={banniereAPropos} mobilePicture={banniereMobile}/>
+            <div className="all_collapse">
             <Collapse title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."/>
             <Collapse title="Respect" description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."/>
             <Collapse title="Service" description="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."/>
@@ -18,4 +18,4 @@ function APropos() {
     );
 }
 
-export default APropos;
+export default About;

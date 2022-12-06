@@ -1,9 +1,9 @@
 .carrousel {
     display: block;
-    height: 415px;
+    height: 435px;
     margin: auto auto 30px auto;
     position: relative;
-    width: 100%;
+    width: 90%;
 }
 
 .left_arrow {
@@ -24,13 +24,13 @@
     z-index: 1;
 }
 
-.carrousel-img {
+.carrousel_picture {
     border-radius: 15px;
-    height: 415px;
+    height: 100%;
     object-fit: cover;
     display: none;
     width: 100%
 }
-.carrousel-img.actif {
+.carrousel_picture.actif {
     display: block;
 }

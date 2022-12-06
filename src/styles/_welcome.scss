@@ -1,11 +1,11 @@
-.Accueil {
+.welcome {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     
 }
-.All_stickers{
+.all_stickers{
     width: 90%;
     background-color: #F7F7F7;
     height: auto;
@@ -17,7 +17,7 @@
     border-radius: 25px;
 }
 @media screen and (max-width: 425px) {
-    .All_stickers{
+    .all_stickers{
         background-color: white;
     }
 }

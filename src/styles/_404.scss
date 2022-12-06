@@ -1,8 +1,8 @@
-.page-404 {
+.page_404 {
     text-align: center;
   }
   
-  .titre-404 {
+  .title_404 {
     color: #ff6060;
     font-size: 208px;
     margin: auto;
@@ -10,26 +10,18 @@
     
   }
   
-  .description-404 {
+  .description_404 {
     color: #ff6060;
     display: block;
     font-size: 36px;
 
   }
   
-  .lien-site.lien-404 {
+  .lien_404 {
     display: block;
     margin-top: 150px;
     font-size: 18px;
     text-decoration-line: underline ;
+    color: #ff6060;
   }
   
-  @media screen and (max-width: 1490px) {
-    .titre-404 {
-      font-size: 96px;
-    }
-    
-    .description-404 {
-      font-size: 18px;
-    }
-  }

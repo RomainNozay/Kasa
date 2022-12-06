@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import fleche from "../asset/img/Fleche.png";
+import Fleche from "../asset/img/Fleche.png";
 
 function Carrousel({pictures}) {
     /* Crée un Hook d'état */
@@ -27,20 +27,21 @@ function Carrousel({pictures}) {
     return(
         <div className="carrousel">
             {
-                numberPicture > 1 && <img className="left_arrow" src={fleche} alt="Contenu précedént" onClick={previousPicture}/>
+                numberPicture > 1 && <img className="left_arrow" src={Fleche} alt="Contenu précedént" onClick={previousPicture}/>
             }
             {
                 pictures.map((picture, index) => {
                     return(
-                        <img key={index} className={index === displayPicture ? 'carrousel-img actif' : 'carrousel-img'} src={picture} alt="Logement"/>
+                        <img key={index} className={index === displayPicture ? 'carrousel_picture actif' : 'carrousel_picture'} src={picture} alt="Logement"/>
                     )
                 })
             }
             {
-                numberPicture > 1 && <img className="right_arrow" src={fleche} alt="Contenu suivant" onClick={nextPicture}/>
+                numberPicture > 1 && <img className="right_arrow" src={Fleche} alt="Contenu suivant" onClick={nextPicture}/>
             }
         </div>
     );
 }
 
+  
 export default Carrousel;
