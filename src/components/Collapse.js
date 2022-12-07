@@ -13,7 +13,6 @@ function Collapse({title, description}) {
     la partie haute (celle du titre) enfin on affiche dynamiquement les titre à partir de Apropos.js
     On ajoute la flèche qui au clique va déclenche la fonction qui inversera la valeur de ouvert en true 
     et fera apparaître la description récupéré dynamiquement à partir de Apropos.*/ 
-    console.log(setOpen)
     return(
         <div className="collapse">
             <div className="header_collapse">
