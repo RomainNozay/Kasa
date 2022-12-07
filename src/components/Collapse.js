@@ -15,7 +15,7 @@ function Collapse({title, description}) {
     et fera apparaître la description récupéré dynamiquement à partir de Apropos.*/ 
     console.log(setOpen)
     return(
-        <div className="collapse" id={`collapse`}>
+        <div className="collapse">
             <div className="header_collapse">
                 <div className="title_collapse">{title}</div>
                 <span className={`arrow_collapse ${open}`} onClick={() => setOpen(!open)}>
@@ -23,7 +23,7 @@ function Collapse({title, description}) {
                 </span>
             </div>
             {
-                open && <div className="description-collapse">{description}</div>
+                open && <div className="description_collapse">{description}</div>
             }
         </div>
     );

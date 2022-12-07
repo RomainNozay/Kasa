@@ -16,6 +16,11 @@
     flex-wrap: wrap ;
     border-radius: 25px;
 }
+.all_tag{
+    width: 50%;
+    margin: 10px 5%;
+    display: flex;
+}
 @media screen and (max-width: 425px) {
     .all_stickers{
         background-color: white;

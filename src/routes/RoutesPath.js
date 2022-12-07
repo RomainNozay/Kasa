@@ -18,7 +18,7 @@ function RoutesPath() {
                     <Route path="/About" element={<About />}/>
                     <Route path="*" element={<Error404 />}/>
                 </Routes>
-                </Layout>
+            </Layout>
         </HashRouter>
     );
 }
