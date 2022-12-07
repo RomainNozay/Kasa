@@ -36,8 +36,12 @@ function Rental() {
                             {rentalTags}
                         </div>
                         <div className="collapse_rental">
+                            <div className="box_collapse_description">
                         <Collapse title= "Description" description={rentalOne.description}/>
+                        </div>
+                        <div className="box_collapse_equipment">
                         <Collapse title= "Équipement" description={equipmentList}/>
+                        </div>
                         </div>
                     </div>
                 ) : <Navigate replace to = "/404/" />
