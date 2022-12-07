@@ -1,5 +1,5 @@
 .banner {
-    border-radius: 25px;
+    border-radius: 10px;
     height: 225px;
     margin-bottom: 35px;
     position: relative;
@@ -10,25 +10,24 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
+    border-radius: 10px;
     height: 100%;
     object-fit: cover;
     width: 100%;
   }
 
   .banner_picture_mobile {
-    position: fixed;
-    border-radius: 25px;
-    height: 25.5%;
-    object-fit: cover;
-    width: 90%;
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
     visibility: hidden;
-    right: 5%;
+    right: 0px;
   }
 
   .banner_darken {
     background-color: #000000;
-    border-radius: 25px;
+    border-radius: 10px;
     height: 100%;
     left: 0;
     opacity: 0.3;
@@ -51,20 +50,25 @@
     .banniere_txt{
       font-size: 30px;
       justify-content: flex-start;
-      margin-left: 10%;
-      margin-right: 25%;
+      margin-left: 0%;
+      margin-right: 0%;
+      width: 60%;
     }
   }
   @media screen and (max-width: 425px) {
+    .banner {
+      height: 120px;
+    }
     .banner_picture {
       visibility: hidden;
     }
     .banner_picture_mobile {
       visibility: visible;
+  
     }
     .banniere_txt{
-      bottom: 380px;
       font-size: 26px;
+      width: 70%;
     }
     
   }
