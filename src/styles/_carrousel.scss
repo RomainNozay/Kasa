@@ -34,3 +34,16 @@
 .carrousel_picture.actif {
     display: block;
 }
+@media screen and (max-width: 768px) {
+    .carrousel{
+        height: 225px;
+    }
+    .left_arrow{
+        width: 20px;
+        margin-left: 10px;
+    }
+    .right_arrow{
+        width: 20px;
+        margin-right: 10px;
+    }
+}

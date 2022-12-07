@@ -34,10 +34,42 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 10px;
 }
 
 .collapse_rental{
     display: flex;
     width: 90%;
     margin: 50px 5% 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .collapse_rental{
+        flex-direction: column;
+        width: 100%;
+    }
+    .information{
+        flex-direction: column;
+    }
+    .rental_area{
+        width: 100%;
+    }
+    .owner{
+        position: relative;
+        top: 70px;
+        left: 40%;
+    }
+    .owner_picture{
+        height: 32px;
+        width: 32px;
+    }
+    .owner_name{
+        height: 32px;
+    }
+    .all_tag{
+        position: relative;
+        margin-top: 0%;
+        width: 100%;
+    }
+    
 }
