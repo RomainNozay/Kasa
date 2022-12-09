@@ -4,18 +4,15 @@ import rentalList from "../asset/api/logements.json";
 import { useParams, Navigate } from 'react-router-dom';
 import Collapse from "../components/Collapse";
 import Tag from "../components/Tag";
+import Star from "../components/Star";
+// import Etoile from "../asset/img/Etoile.png"
+// import EtoileVide from "../asset/img/EtoileVide.png"
 
 function Rental() {
     /* Récupère la bonne fiche */
     const id = useParams();
     const rentalOne = rentalList.find(logement => logement.id === id.id);
     
-    const equipmentList = rentalOne.equipments.map((equipment, index) => {
-        return <li key={index}>{equipment}</li>
-    });
-    const rentalTags = rentalOne.tags.map((tags,index) => {
-        return <Tag key={index} title={tags} />
-    });
     return (
         <>
             {
@@ -33,14 +30,17 @@ function Rental() {
                         </div>
                         </div>
                         <div className="all_tag">
-                            {rentalTags}
+                        {rentalOne.tags.map((tags,index) => (<Tag key={index} title={tags} /> ))}
+                        </div>
+                        <div className="all_star">
+                            <Star rating ={rentalOne.rating}/>
                         </div>
                         <div className="collapse_rental">
                             <div className="box_collapse_description">
                         <Collapse title= "Description" description={rentalOne.description}/>
                         </div>
                         <div className="box_collapse_equipment">
-                        <Collapse title= "Équipement" description={equipmentList}/>
+                        <Collapse title= "Équipement" description={rentalOne.equipments.map((equipment, index) => (<li key={index}>{equipment}</li>))}/>
                         </div>
                         </div>
                     </div>
