@@ -29,11 +29,13 @@ function Rental() {
                             <img className="owner_picture" src={rentalOne.host.picture} alt = "Propriétaire"/>
                         </div>
                         </div>
+                        <div>
+                        <div className="tag_rating">
                         <div className="all_tag">
                         {rentalOne.tags.map((tags,index) => (<Tag key={index} title={tags} /> ))}
                         </div>
-                        <div className="all_star">
-                            <Star rating ={rentalOne.rating}/>
+                        <Star rating ={rentalOne.rating}/>
+                        </div>
                         </div>
                         <div className="collapse_rental">
                             <div className="box_collapse_description">

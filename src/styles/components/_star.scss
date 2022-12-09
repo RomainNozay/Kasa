@@ -1,0 +1,20 @@
+.rating{
+     margin-right: 5%;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.rating_icon{
+    width: 30px;
+}
+@media screen and (max-width: 768px) {
+    .rating{
+justify-content: flex-start;
+position: relative;
+top: 12px;
+    }
+    .rating_icon{
+height: 15px;
+width: 15px;
+    }
+}

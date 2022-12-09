@@ -11,9 +11,9 @@ const Rating = ({ rating }) => {
       {/* Loop to display star by rating */}
       {starsArray.map((star) =>
         rating >= star ? (
-          <img key={star.toString()} className="rating__icon" src={redstar} alt="Etoile orangé représentant une note positive sur 5 étoiles"/>
+          <img key={star.toString()} className="rating_icon" src={redstar} alt="Etoile orangé représentant une note positive sur 5 étoiles"/>
         ) : (
-          <img key={star.toString()} className="rating__icon" src={greystar} alt= "Etoile grisée représentant une point négatif sur 5 étoiles"/>
+          <img key={star.toString()} className="rating_icon" src={greystar} alt= "Etoile grisée représentant une point négatif sur 5 étoiles"/>
         )
       )}
     </div>

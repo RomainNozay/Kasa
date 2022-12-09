@@ -36,6 +36,15 @@
     justify-content: flex-end;
     margin-right: 10px;
 }
+.tag_rating{
+    display: flex;
+    align-items: baseline;
+}
+.all_tag{
+    margin: 10px 5%;
+    display: flex;
+    width: 200%;
+}
 
 .collapse_rental{
     display: flex;
@@ -52,9 +61,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    // .rental{
-    //     width: 105%;
-    // }
     .collapse_rental{
         flex-direction: column;
         width: 90%;
@@ -64,6 +70,12 @@
     }
     .rental_area{
         width: 90%;
+    }
+    .rental_title{
+        font-size: 18px;
+    }
+    .rental_location{
+        font-size: 14px;
     }
     .owner{
         position: relative;
@@ -76,11 +88,16 @@
     }
     .owner_name{
         height: 32px;
+        font-size: 12px;
+    }
+    .tag_rating{
+        flex-direction: column;
     }
     .all_tag{
         position: relative;
         margin-top: 0%;
         width: 90%;
+        
     }
     .box_collapse_description{
         width: 100%;

@@ -2,8 +2,9 @@ import React from "react"
 
 function Tag({ title }) {
     return(
-        
-            <div className="tag">{title} </div>
+            <div className="tag">
+            <div className="tag_text">{title} </div>
+            </div>
         
     );
 }
