@@ -18,7 +18,7 @@ header {
   }
   
   .link {
-    color: #ff6060;
+    color: $main-color;
     margin: auto 25px;
     text-decoration: none;
   }
@@ -27,7 +27,7 @@ header {
   }
   
   .link.active {
-      border-bottom: 1px solid #ff6060;
+      border-bottom: 1px solid $main-color;
   }
   
   @media screen and (max-width: 768px) {
