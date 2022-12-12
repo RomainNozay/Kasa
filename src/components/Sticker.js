@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes  from "prop-types";
 
 function Sticker({id, picture, title}) {
     return(
@@ -7,6 +8,11 @@ function Sticker({id, picture, title}) {
             <span className="sticker_text">{title}</span>
         </div>
     );
+}
+Sticker.propTypes = {
+    picture: PropTypes.string,
+    id: PropTypes.string,
+    title: PropTypes.string,
 }
 
 export default Sticker;

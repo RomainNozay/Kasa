@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes  from "prop-types";
 
 import redstar from "../asset/img/Etoile.png";
 import greystar from "../asset/img/EtoileVide.png";
@@ -19,5 +20,8 @@ const Rating = ({ rating }) => {
     </div>
   );
 };
+Rating.propTypes = {
+  Rating: PropTypes.array, 
+}
 
 export default Rating;

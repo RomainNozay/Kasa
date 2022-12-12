@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Fleche from "../asset/img/Fleche.png";
+import PropTypes  from "prop-types";
 
 function Carrousel({pictures}) {
     /* Crée un Hook d'état */
@@ -42,6 +43,8 @@ function Carrousel({pictures}) {
         </div>
     );
 }
-
+Carrousel.propTypes = {
+    pictures: PropTypes.string,
+}
   
 export default Carrousel;
