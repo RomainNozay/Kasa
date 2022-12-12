@@ -3,7 +3,7 @@
   }
   
   .title_404 {
-    color: #ff6060;
+    color: $main-color;
     font-size: 208px;
     margin: auto;
     line-height: 411px;
@@ -11,7 +11,7 @@
   }
   
   .description_404 {
-    color: #ff6060;
+    color: $main-color;
     display: block;
     font-size: 36px;
 
@@ -22,6 +22,6 @@
     margin-top: 150px;
     font-size: 18px;
     text-decoration-line: underline ;
-    color: #ff6060;
+    color: $main-color;
   }
   

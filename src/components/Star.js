@@ -4,7 +4,7 @@ import PropTypes  from "prop-types";
 import redstar from "../asset/img/Etoile.png";
 import greystar from "../asset/img/EtoileVide.png";
 
-const Rating = ({ rating }) => {
+function Rating({ rating })  {
   const starsArray = [1, 2, 3, 4, 5];
 
   return (
@@ -21,7 +21,7 @@ const Rating = ({ rating }) => {
   );
 };
 Rating.propTypes = {
-  Rating: PropTypes.array, 
+  rating: PropTypes.string, 
 }
 
 export default Rating;

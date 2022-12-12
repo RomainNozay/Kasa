@@ -13,7 +13,7 @@ function Banner({picture, mobilePicture, title}) {
 }
 Banner.propTypes = {
     picture: PropTypes.string,
-    mobilePicture: PropTypes.element,
+    mobilePicture: PropTypes.string,
     title: PropTypes.string,
 }
 

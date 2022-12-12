@@ -7,7 +7,7 @@
 
   .header_collapse {
     align-items: center;
-    background-color: #ff6060;
+    background-color: $main-color;
     border-radius: 5px;
     display: inline-flex;
     height: 25%;
@@ -44,7 +44,7 @@
     background-color: #f6f6f6;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    color: #ff6060;
+    color: $main-color;
     height: 75%;
     width: 100%;
     margin-top: -10px;
@@ -60,6 +60,9 @@
     }
     .title_collapse{
       font-size: 13px;
+    }
+    .arrow_collapse{
+      height: 15px;
     }
     .description_collapse{
       font-size: 12px;
