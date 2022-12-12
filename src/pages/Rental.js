@@ -20,8 +20,7 @@ function Rental() {
                         <div className="information">
                         <div className="rental_area">
                             <h1 className="rental_title">{rentalOne.title}</h1>
-                            <p className="rental_location">{rentalOne.
-                            }</p>
+                            <p className="rental_location">{rentalOne.location}</p>
                         </div>
                         <div className="owner">
                             <p className="owner_name">{rentalOne.host.name}</p>
