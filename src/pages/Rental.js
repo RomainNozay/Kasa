@@ -1,5 +1,5 @@
 import React from "react";
-import Carrousel from "../components/Carousel";
+import Carrousel from "../components/Carrousel";
 import rentalList from "../asset/api/logements.json";
 import { useParams, Navigate } from 'react-router-dom';
 import Collapse from "../components/Collapse";
