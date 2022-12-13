@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
     return(
         <header>
-            <img src={logoHeader} alt="Logo"/>
+            <img src={logoHeader} alt="Mot Kasa stylisé avec une maison à la place du A en orange"/>
             <nav>
                 <NavLink to="/Welcome" className="link">Accueil</NavLink>
                 <NavLink to="/About" className="link">À propos</NavLink>
