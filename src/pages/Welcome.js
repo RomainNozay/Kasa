@@ -6,7 +6,7 @@ import Sticker from '../components/Sticker';
 import Logements from '../asset/api/logements.json';
 import { NavLink } from 'react-router-dom';
 
-const Welcome = () => {
+function Welcome() {
     return (
             <div className='welcome'>
                 <Banner picture={BannerPicture} mobilePicture={BannerMobile} title="Chez vous, partout et ailleurs" />
