@@ -19,7 +19,7 @@ function Collapse({title, description}) {
             <div className="header_collapse">
                 <div className="title_collapse">{title}</div>
                 <span className={`arrow_collapse ${open}`} onClick={() => setOpen(!open)}>
-                    <img src={Arrow} alt="Ouvrir cette liste"/>
+                    <img src={Arrow} alt="Flèche orientée vers le bas pour ouvrir un menu"/>
                 </span>
             </div>
             {

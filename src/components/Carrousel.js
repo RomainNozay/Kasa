@@ -28,7 +28,7 @@ function Carrousel({pictures}) {
     return(
         <div className="carrousel">
             {
-                numberPicture > 1 && <img className="left_arrow" src={Fleche} alt="Contenu précedént" onClick={previousPicture}/>
+                numberPicture > 1 && <img className="left_arrow" src={Fleche} alt="Flèche pour afficher la vue précédente" onClick={previousPicture}/>
             }
             {
                 pictures.map((picture, index) => {
@@ -38,7 +38,7 @@ function Carrousel({pictures}) {
                 })
             }
             {
-                numberPicture > 1 && <img className="right_arrow" src={Fleche} alt="Contenu suivant" onClick={nextPicture}/>
+                numberPicture > 1 && <img className="right_arrow" src={Fleche} alt="Flèche pour afficher la vue suivante" onClick={nextPicture}/>
             }
         </div>
     );
