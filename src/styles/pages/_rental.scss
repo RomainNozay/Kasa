@@ -39,6 +39,7 @@
 .tag_rating{
     display: flex;
     align-items: baseline;
+    margin-top: 10px;
 }
 .all_tag{
     margin: 10px 5%;
@@ -67,6 +68,7 @@
     }
     .information{
         flex-direction: column;
+        height: 70px;
     }
     .rental_area{
         width: 90%;
@@ -76,10 +78,11 @@
     }
     .rental_location{
         font-size: 14px;
+        margin-top: 10px;
     }
     .owner{
         position: relative;
-        top: 70px;
+        top: 60px;
         left: 40%;
     }
     .owner_picture{
@@ -88,10 +91,11 @@
     }
     .owner_name{
         height: 32px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .tag_rating{
         flex-direction: column;
+        margin-top: 0px;
     }
     .all_tag{
         position: relative;
