@@ -24,4 +24,18 @@
     text-decoration-line: underline ;
     color: $main-color;
   }
+  @media screen and (max-width: 768px) {
+    .title_404{
+    font-size: 96px;
+    line-height: 3;
+    }
+    .description_404{
+      font-size: 18px;
+      position: relative;
+      bottom: 74px;
+    }
+    .lien_404{
+      font-size: 14px;
+    }
+  }
   
