@@ -3,7 +3,6 @@ import Fleche from "../asset/img/Fleche.png";
 import PropTypes  from "prop-types";
 
 function Carrousel({pictures}) {
-    /* Crée un Hook d'état */
     let [displayPicture, ChangePicture] = useState(0);
     let numberPicture = pictures.length;
 
