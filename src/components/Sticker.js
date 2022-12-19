@@ -5,6 +5,7 @@ function Sticker({id, picture, title}) {
     return(
         <div className="sticker" id={id}>
             <img className="sticker_image" src={picture} alt="Vue de la location"/>
+            <div className="sticker_dark"></div>
             <span className="sticker_text">{title}</span>
         </div>
     );
