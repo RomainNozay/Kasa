@@ -1,13 +1,13 @@
 import React from "react";
 import Banner from "../components/Banner";
-import banniereAPropos from "../asset/img/Bannière_Apropos.png";
-import banniereMobile from "../asset/img/Apropos_mobile.png";
+import BanniereAPropos from "../asset/img/Bannière_Apropos.png";
+import BanniereMobile from "../asset/img/Apropos_mobile.png";
 import Collapse from "../components/Collapse";
 
 function About() {
     return (
         <div className="about">
-            <Banner picture={banniereAPropos} mobilePicture={banniereMobile} />
+            <Banner picture={BanniereAPropos} mobilePicture={BanniereMobile} />
             <div className="all_collapse">
                 <Collapse title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." />
                 <Collapse title="Respect" description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme." />
