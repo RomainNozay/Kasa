@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import Arrow from "../asset/img/Arrow_Back.png";
-import PropTypes  from "prop-types";
+import PropTypes from "prop-types";
 
-function Collapse({title, description}) {
-    
+function Collapse({ title, description }) {
+
     const [open, setOpen] = useState(false);
- 
-    return(
+
+    return (
         <div className="collapse">
             <div className="header_collapse">
                 <div className="title_collapse">{title}</div>
                 <span className={`arrow_collapse ${open}`} onClick={() => setOpen(!open)}>
-                    <img src={Arrow} alt="Flèche orientée vers le bas pour ouvrir un menu"/>
+                    <img src={Arrow} alt="Flèche orientée vers le bas pour ouvrir un menu" />
                 </span>
             </div>
             {

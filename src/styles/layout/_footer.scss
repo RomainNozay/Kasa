@@ -4,24 +4,22 @@ footer {
     margin-top: 35px;
     position: relative;
   }
-  
   #footer_container {
     display: flex;
     flex-direction: column;
     height: 150px;
     padding: 25px 0px;
   }
-  
   #footer_container > img {
     display: block;
     margin: auto;
   }
-  
   #footer_container > p {
     color: #ffffff;
     text-align: center;
     font-size: 24px;
   }
+  
   @media screen and (max-width: 768px) {
     #footer_container > p {
       font-size: 12px;

@@ -8,15 +8,15 @@ import Layout from "../Layout/Layout";
 
 
 function RoutesPath() {
-    return(
+    return (
         <HashRouter>
             <Layout>
                 <Routes>
-                    <Route element={<Navigate replace to="/Welcome"/>} path="/" />
-                    <Route path="/Welcome" element={<Welcome />}/>
-                    <Route path="/rental/:id" element={<Rental />}/>
-                    <Route path="/About" element={<About />}/>
-                    <Route path="*" element={<Error404/>}/>
+                    <Route element={<Navigate replace to="/Welcome" />} path="/" />
+                    <Route path="/Welcome" element={<Welcome />} />
+                    <Route path="/rental/:id" element={<Rental />} />
+                    <Route path="/About" element={<About />} />
+                    <Route path="*" element={<Error404 />} />
                 </Routes>
             </Layout>
         </HashRouter>

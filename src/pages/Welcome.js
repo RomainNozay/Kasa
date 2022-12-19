@@ -8,14 +8,14 @@ import { NavLink } from 'react-router-dom';
 
 function Welcome() {
     return (
-            <div className='welcome'>
-                <Banner picture={BannerPicture} mobilePicture={BannerMobile} title="Chez vous, partout et ailleurs" />
-                <div className="all_stickers">
-                {Logements.map((logement) => <NavLink key={logement.id} to={"/rental/"+logement.id+"/#"}>
-                     <Sticker key={logement.id} id={logement.id} picture={logement.cover} title={logement.title} /></NavLink>)}
+        <div className='welcome'>
+            <Banner picture={BannerPicture} mobilePicture={BannerMobile} title="Chez vous, partout et ailleurs" />
+            <div className="all_stickers">
+                {Logements.map((logement) => <NavLink key={logement.id} to={"/rental/" + logement.id + "/#"}>
+                    <Sticker key={logement.id} id={logement.id} picture={logement.cover} title={logement.title} /></NavLink>)}
             </div>
-            </div>
-        
+        </div>
+
     );
 };
 

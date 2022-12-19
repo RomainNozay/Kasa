@@ -4,7 +4,6 @@
     text-align: left;
     width: 90%;
   }
-
   .header_collapse {
     align-items: center;
     background-color: $main-color;
@@ -15,7 +14,6 @@
     width: 100%;
     height: 47px;
   }
-  
   .title_collapse {
     font-size: 24px;
     color: $main-color-text;
@@ -23,7 +21,6 @@
     line-height: 50px;
     margin: 5px 10px;
   }
-  
   .arrow_collapse {
     display: flex;
     justify-content: flex-end;
@@ -33,12 +30,10 @@
   .arrow_collapse:hover {
       cursor: pointer;
   }
-  
   .arrow_collapse.true {
     justify-content: start;
     transform: rotate(-180deg);
   }
-  
   .description_collapse {
     font-size: 24px;
     background-color: #f6f6f6;
@@ -51,6 +46,7 @@
     min-height: 100px;
     padding: 25px 10px 10px 10px;
   }
+  
   @media screen and (max-width: 768px) {
     .collapse{
       width: 100%;

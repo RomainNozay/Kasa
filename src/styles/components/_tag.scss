@@ -13,9 +13,10 @@
     text-overflow: ellipsis;
     color: $main-color-text;
 }
+
 @media screen and (max-width: 768px) {
-.tag{
-    width: 25%;
-    font-size: 10px;
-}
+    .tag{
+        width: 25%;
+        font-size: 10px;
+    }
 }

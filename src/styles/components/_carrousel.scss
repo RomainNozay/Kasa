@@ -5,7 +5,6 @@
     position: relative;
     width: 90%;
 }
-
 .left_arrow {
     margin-left: 25px;
     top: 50%;
@@ -25,7 +24,6 @@
     z-index: 1;
     cursor: pointer;
 }
-
 .carrousel_picture {
     border-radius: 15px;
     height: 100%;
@@ -36,6 +34,7 @@
 .carrousel_picture.actif {
     display: block;
 }
+
 @media screen and (max-width: 768px) {
     .carrousel{
         height: 225px;

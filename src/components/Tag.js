@@ -1,12 +1,12 @@
 import React from "react"
-import PropTypes  from "prop-types";
+import PropTypes from "prop-types";
 
 function Tag({ title }) {
-    return(
-            <div className="tag">
+    return (
+        <div className="tag">
             <div className="tag_text">{title} </div>
-            </div>
-        
+        </div>
+
     );
 }
 

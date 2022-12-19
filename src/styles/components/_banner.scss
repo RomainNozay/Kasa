@@ -15,7 +15,6 @@
     object-fit: cover;
     width: 100%;
   }
-
   .banner_picture_mobile {
     position: absolute;
     border-radius: 10px;
@@ -24,7 +23,6 @@
     visibility: hidden;
     right: 0px;
   }
-
   .banner_darken {
     background-color: #000000;
     border-radius: 10px;
@@ -35,7 +33,6 @@
     top: 0;
     width: 100%;
   }
-  
   .banniere_txt {
     color: $main-color-text;
     font-size: 48px;
@@ -45,7 +42,6 @@
     transform: translate(-50%, -50%);
   }
  
-
   @media screen and (max-width: 768px) {
     .banniere_txt{
       font-size: 30px;
